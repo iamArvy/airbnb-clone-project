@@ -67,6 +67,26 @@
       - Payment is related to one User
 
   ## Feature Breakdown
+    1. **API Documentation**
+      The backend APIs follow the OpenAPI standard, providing clear and consistent documentation that simplifies frontend integration and third-party development. Django REST Framework and GraphQL are used to offer both RESTful and flexible query-based access to resources, enabling developers to work efficiently with the system.
+
+    2. **User Authentication**
+      Authentication endpoints allow users to register, log in, and manage their profiles securely. This foundational feature ensures that users and hosts have personalized, authenticated access to the platform’s features.
+
+    3. **Property Management**
+      These endpoints allow hosts to create, update, and manage property listings, while enabling guests to browse available options. It forms the core functionality that facilitates property discovery and listing management.
+
+    4. **Booking System**
+      The booking system handles reservation creation, updates, and lifecycle events like check-ins and check-outs. It enables seamless interaction between guests and hosts, ensuring accurate tracking of availability and booking statuses.
+
+    5. **Payment Processing**
+      Payment endpoints manage financial transactions for bookings, ensuring secure and smooth payment flows. This feature is crucial for monetizing the platform and building trust between users and hosts.
+
+    6. Review System
+      The review system enables users to provide feedback on properties they’ve stayed in, helping build transparency and trust within the community. It also aids future guests in making informed booking decisions.
+
+    7. Database Optimizations
+      By implementing indexing and caching strategies, the backend ensures fast data retrieval and reduces server load. These optimizations enhance overall performance and scalability, especially as the user base and data volume grow.
 
   ## API Security
 
