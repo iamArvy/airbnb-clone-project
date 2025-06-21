@@ -12,27 +12,27 @@
   * **Data Optimization:** Ensure efficient data retrieval and storage through database optimizations.
 
   ## Team Roles
-    * **Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
-    * **Database Administrator:** Manages database design, indexing, and optimizations.
-    * **DevOps Engineer:** Handles deployment, monitoring, and scaling of the backend services.
-    * **QA Engineer:** Ensures the backend functionalities are thoroughly tested and meet quality standards.
+  * **Backend Developer:** Responsible for implementing API endpoints, database schemas, and business logic.
+  * **Database Administrator:** Manages database design, indexing, and optimizations.
+  * **DevOps Engineer:** Handles deployment, monitoring, and scaling of the backend services.
+  * **QA Engineer:** Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
   ## Technology Stack
-    * **Django:** A high-level Python web framework used for building the RESTful API. It provides built-in tools for authentication, routing, database interaction, and security.
+  * **Django:** A high-level Python web framework used for building the RESTful API. It provides built-in tools for authentication, routing, database interaction, and security.
 
-    * **Django REST Framework:** An extension of Django that simplifies the process of building, testing, and documenting RESTful APIs. It enables easy handling of serialization, permissions, authentication, and API versioning.
+  * **Django REST Framework:** An extension of Django that simplifies the process of building, testing, and documenting RESTful APIs. It enables easy handling of serialization, permissions, authentication, and API versioning.
 
-    * **PostgreSQL:** A powerful, open-source relational database system used to store structured data such as users, properties, bookings, and reviews. It offers strong data integrity, advanced querying, and scalability.
+  * **PostgreSQL:** A powerful, open-source relational database system used to store structured data such as users, properties, bookings, and reviews. It offers strong data integrity, advanced querying, and scalability.
 
-    * **GraphQL:** A query language that allows clients to request exactly the data they need. It enhances performance and flexibility, especially for frontend applications needing tailored responses from the backend.
+  * **GraphQL:** A query language that allows clients to request exactly the data they need. It enhances performance and flexibility, especially for frontend applications needing tailored responses from the backend.
 
-    * **Celery:** A task queue system used to handle asynchronous background jobs like sending confirmation emails, processing payment callbacks, or generating reports, ensuring the main application remains fast and responsive.
+  * **Celery:** A task queue system used to handle asynchronous background jobs like sending confirmation emails, processing payment callbacks, or generating reports, ensuring the main application remains fast and responsive.
 
-    * **Redis:** An in-memory data store used for caching frequently accessed data (like property listings or user sessions) and as a message broker for Celery tasks. It improves performance and reduces database load.
+  * **Redis:** An in-memory data store used for caching frequently accessed data (like property listings or user sessions) and as a message broker for Celery tasks. It improves performance and reduces database load.
 
-    * **Docker:** A containerization platform that packages the application and its dependencies into portable containers. This ensures consistent development, testing, and production environments, reducing "it works on my machine" issues.
+  * **Docker:** A containerization platform that packages the application and its dependencies into portable containers. This ensures consistent development, testing, and production environments, reducing "it works on my machine" issues.
 
-    * **CI/CD Pipelines:** Automated workflows that run tests, lint code, build Docker images, and deploy updates on every code change. They ensure faster, safer, and more reliable releases by catching issues early and streamlining deployment.
+  * **CI/CD Pipelines:** Automated workflows that run tests, lint code, build Docker images, and deploy updates on every code change. They ensure faster, safer, and more reliable releases by catching issues early and streamlining deployment.
 
   ## Database Design
     ### Tables
